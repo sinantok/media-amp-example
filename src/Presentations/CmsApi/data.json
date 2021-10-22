@@ -1,0 +1,53 @@
+{
+  "NewsId": "7c76bb45f85f",
+  "Title": "What is Lorem Ipsum?",
+  "Spot": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "PublishedTime": "2021-10-22T13:05:07.571+0000",
+  "CreatedTime": "2021-10-22T13:05:07.571+0000",
+  "ContentType": "Article",
+  "Text": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "NewsKeywords": [
+    {
+      "Keyword": "Lorem"
+    },
+    {
+      "Keyword": "Ipsum"
+    }
+  ],
+  "MainCategory": {
+    "Title": "UK",
+    "Slug": "uk"
+  },
+  "SourcesData": [
+    {
+      "_id": "7366de03ca81",
+      "Title": "Dello Sport"
+    }
+  ],
+  "PublishedAccount": {
+    "_id": "6ce990048af1",
+    "Email": "hedagok422@bomoads.com"
+  },
+  "CreatedAccount": {
+    "_id": "14026d51aeab",
+    "Email": "xepeb25189@d3bb.com"
+  },
+  "Story": {
+    "_id": "22813ccbac80",
+    "Contents": [
+      {
+        "_t": "TextContent",
+        "Text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      {
+        "_t": "ImageContent",
+        "ImageUrl": "https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/FC86/production/_121064646_gettyimages-1345845542.jpg"
+      },
+      {
+        "_t": "TextContent",
+        "Text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      }
+    ]
+  },
+  "MainArtUrl": "https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/6428/production/_120804652_mercedes.jpg"
+}

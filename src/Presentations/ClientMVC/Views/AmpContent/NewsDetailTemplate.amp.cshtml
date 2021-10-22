@@ -1,0 +1,27 @@
+﻿@using Models.Entities
+@model ContentDto
+@{
+    ViewData["Title"] = "NewsDetailTemplate";
+    Layout = "~/Views/Shared/Amp/_Layout.amp.cshtml";
+}
+<main class="main-container white-box">
+    <article class="news-wrapper">
+        <h1 class="title">@Model.Title</h1>
+        <div class="news-image">
+            <amp-img src="@Model.MainArtUrl"
+                     alt="@Model.Title"
+                     width="700"
+                     height="395"
+                     layout="responsive">
+            </amp-img>
+        </div>
+        <div class="news-info">
+            <div class="source">@Model.SourcesData?.FirstOrDefault().Title</div>
+            <div class="date"><time>@Convert.ToDateTime(Model.PublishedTime).ToString("dd MMMM yyyy - HH:mm")</time></div>
+        </div>
+        <h2 class="news-description">@Model.Spot</h2>
+        <div class="news-detail">
+            @Html.Raw(Model.Text)
+        </div>
+    </article>
+</main>
